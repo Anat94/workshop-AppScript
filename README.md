@@ -76,10 +76,16 @@ AddName("Kylian", "Mbappe")
 ```
 
 Output:
-```
-```
+<img src="https://github.com/Anat94/workshop-AppScript/blob/main/ETAPE3-2.png" width="300"/>
 
 ### __3.3: Supprimer les données d'une feuille de calcul__
 
 1.	Créer une fonction RemoveRow() qui doit supprimer la ligne numéro 3
 2.	Ensuite, créer une fonction RemoveName(Nom) qui prend en paramètre une chaîne de caractères et devra supprimer la ligne ayant le nom associé.
+
+## Étape 4 : Créer un bouton
+
+1.    Pour créer un bouton, aller sur « Insertion »  « dessin »  dessiner votre dessin et appuyer sur « Enregistrer et fermer ».
+2.    Une fois fait, il va falloir mettre une action sur ce bouton. Lorsqu’on appuie sur ce bouton on veut que cela ajoute à la ligne suivante « Astek » et « APE ». Et donc associer une fonction à ce bouton pour qu’à chaque on clique dessus, cette action se passe.
+
+<img src="https://github.com/Anat94/workshop-AppScript/blob/main/ETAPE4.png" width="300"/>

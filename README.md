@@ -18,7 +18,7 @@ Aller sur https://docs.google.com/spreadsheets et créer une nouvelle feuille de
 Aller sur l'onglet « EXTENSION » puis cliquer sur « Apps Scripts ».
 
 
-# STEP 2.1 : Découverte d'Appscript
+### STEP 2.1 : Découverte d'Appscript
 Pour commencer, nous allons créer une fonction qui va prendre en paramètre une variable name et qui va afficher un message dans la console de l'éditeur de texte.
 Vous devez créer une deuxième fonction qui va prendre appeler la première fonction et lui passer en paramètre votre nom.
 
@@ -89,3 +89,22 @@ Output:
 2.    Une fois fait, il va falloir mettre une action sur ce bouton. Lorsqu’on appuie sur ce bouton on veut que cela ajoute à la ligne suivante « Astek » et « APE ». Et donc associer une fonction à ce bouton pour qu’à chaque on clique dessus, cette action se passe.
 
 <img src="https://github.com/Anat94/workshop-AppScript/blob/main/ETAPE4.png" width="300"/>
+
+## À VOUS DE JOUER MAINTENANT !
+
+Avec toutes ces étapes réalisées, il est le moment de faire notre formulaire.
+Donc c’est un formulaire de saisie sur la feuille « INFO » qui devra demander les informations suivantes :
+-    Nom
+-    Prénom
+-    Date de Naissance (dd/mm/yyyy)
+-    Adresse mail
+-    Sexe
+Et valider ces informations en appuyant sur un bouton « Valider », devra ajouter ces informations dans la feuille « Base de données »
+
+ATTENTION, on ne peut pas ajouter deux mêmes personnes. 
+
+De plus, ajouter un bouton « Supprimer » qui devra supprimer via une recherche de nom et prénom la ligne dans la feuille « Base de données ».
+
+Voici un exemple de la mise en forme du Formulaire
+
+<img src="https://github.com/Anat94/workshop-AppScript/blob/main/EXEMPLE.png" />

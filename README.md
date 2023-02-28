@@ -29,20 +29,36 @@ Vous devez créer une deuxième fonction qui va prendre appeler la première fon
 
 - Créer une fonction ShowNumber qui prend en paramètre un nombre N et ensuite à afficher de 0 à N. ``` function ShowNumber() ```
 
-- Créer une fonction FindElem qui prend en paramètre une liste et une string. La fonction doit afficher ***YES*** si le mot est dans la liste sinon ***NO***. ``` function FindElem() ```
+- Créer une fonction FindElem qui prend en paramètre une liste et une string. La fonction doit afficher ***YES*** si le mot est dans la liste sinon ***NO***. `` function FindElem() ``
 
-Example : 
-``` let L = ["HELLO", "JE", "SUIS", "HOPPY"]
-    findList(L, "SUIS") ```
+Example :
+```
+    let L = ["HELLO", "JE", "SUIS", "HOPPY"]
+    findList(L, "SUIS")
+```
 
-Output :
-YES
+Output : YES
 
-- Créer une fonction additionNumList qui prend en parametre une liste de nombres et faire la somme de tous ces élements. ``` function additionNumList() ```
+- Créer une fonction additionNumList qui prend en parametre une liste de nombres et faire la somme de tous ces élements. `` function additionNumList() ``
 
-Example : 
-``` let L = [1,2,3,4,5,6,7,8,9]
-    additionNumList(L) ```
+Example :
+```
+    let L = [1,2,3,4,5,6,7,8,9]
+    additionNumList(L)
+```
 
-Output :
-45
+Output : 45
+
+## STEP 3 : Utiliser Appscript dans une feuille de calcul
+
+### __3.1: Récupérer les données d'une feuille de calcul__
+
+Créer une fonction GetInfo() qui doit récupérer votre nom et prénom depuis la feuille INFO et renvoie votre nom et prénom sur la console.
+
+### __3.2: Ajouter les données d'une feuille de calcul__
+
+Créer une fonction ``AddHoppyName()`` qui ajoute sur la ligne suivant «Le chat» «Hoppy»
+
+<img src="https://github.com/Anat94/workshop-AppScript/blob/main/ETAPE3.png" width="300"/>
+
+

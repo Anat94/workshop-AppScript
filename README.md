@@ -57,8 +57,29 @@ Créer une fonction GetInfo() qui doit récupérer votre nom et prénom depuis l
 
 ### __3.2: Ajouter les données d'une feuille de calcul__
 
-Créer une fonction ``AddHoppyName()`` qui ajoute sur la ligne suivant «Le chat» «Hoppy»
+#### __3.2.1: Ajouter les données d'une feuille de calcul
+
+Créer une fonction ``AddHoppyName()`` qui ajoute sur la colonne "NOM" «Le chat» et "PRENOM" «Hoppy»
 
 <img src="https://github.com/Anat94/workshop-AppScript/blob/main/ETAPE3.png" width="300"/>
 
+#### __3.2.2: Ajouter les données d'une feuille de calcul à la ligne suivant
 
+Créer une fonction AddName(nom, prenom) qui prend en paramètre 2 chaines de caractères (nom et prénom).
+Cette fonction doit ajouter le nom et prénom à la ligne suivante.
+
+Example : 
+```
+AddName("Hoopy", "Chat")
+AddName("RAVENS", "BDE")
+AddName("Kylian", "Mbappe")
+```
+
+Output:
+```
+```
+
+### __3.3: Supprimer les données d'une feuille de calcul__
+
+1.	Créer une fonction RemoveRow() qui doit supprimer la ligne numéro 3
+2.	Ensuite, créer une fonction RemoveName(Nom) qui prend en paramètre une chaîne de caractères et devra supprimer la ligne ayant le nom associé.

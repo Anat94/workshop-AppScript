@@ -18,7 +18,7 @@ Aller sur https://docs.google.com/spreadsheets et créer une nouvelle feuille de
 Aller sur l'onglet « EXTENSION » puis cliquer sur « Apps Scripts ».
 
 
-## STEP 3 : Découverte d'Appscript
+# STEP 2.1 : Découverte d'Appscript
 Pour commencer, nous allons créer une fonction qui va prendre en paramètre une variable name et qui va afficher un message dans la console de l'éditeur de texte.
 Vous devez créer une deuxième fonction qui va prendre appeler la première fonction et lui passer en paramètre votre nom.
 
@@ -26,3 +26,23 @@ Vous devez créer une deuxième fonction qui va prendre appeler la première fon
     Hello ${name} !
 ```
 <img src="https://github.com/Anat94/workshop-AppScript/blob/main/ETAPE2.png" width="300"/>
+
+- Créer une fonction ShowNumber qui prend en paramètre un nombre N et ensuite à afficher de 0 à N. ``` function ShowNumber() ```
+
+- Créer une fonction FindElem qui prend en paramètre une liste et une string. La fonction doit afficher ***YES*** si le mot est dans la liste sinon ***NO***. ``` function FindElem() ```
+
+Example : 
+``` let L = ["HELLO", "JE", "SUIS", "HOPPY"]
+    findList(L, "SUIS") ```
+
+Output :
+YES
+
+- Créer une fonction additionNumList qui prend en parametre une liste de nombres et faire la somme de tous ces élements. ``` function additionNumList() ```
+
+Example : 
+``` let L = [1,2,3,4,5,6,7,8,9]
+    additionNumList(L) ```
+
+Output :
+45
